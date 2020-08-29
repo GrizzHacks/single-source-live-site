@@ -11,9 +11,8 @@ This is the main document that defines common attributes for your hackathon in g
 ```json
 {
   "hackathonName": "The name of your hackathon",
-  "timeZone": "The time zone apprivation that all of your times are in. Pay special attention to standard time vs. daylight saving time.",
-  "codeOfConduct": "The link to the code of conduct for your hackathon. If no link is provided, defaults to the MLH code of Conduct",
-  "brandingColor": " Either a hex color code, or a Material standard color (Example: Red[500]). For more information, check out https://material.io/design/color/the-color-system.html#tools-for-picking-colors/",
+  "timeZoneOffset": "The time zone offset from UTC for the time zone you are in. Pay special attention to standard time vs. daylight saving time.",
+  "brandingColor": "Either a hex color code, or a Material standard color (Example: Red[500]). For more information, check out https://material.io/design/color/the-color-system.html#tools-for-picking-colors/",
   "mainWebsiteUrl": "The URL of your main website."
 }
 ```
@@ -150,6 +149,7 @@ Have important links for your hackers to know? Add them here!
 
 ```json
 {
+  "codeOfConduct": "The link to the code of conduct for your hackathon. If no link is provided, defaults to the MLH code of Conduct",
   "joinSlack": "A link to join the Slack.",
   "slackWorkspace": "A link to the Slack workspace (for those who have already joined).",
   "discord": "A link to the Discord",

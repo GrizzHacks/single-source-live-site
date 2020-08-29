@@ -3,6 +3,7 @@ import React, { Fragment } from "react";
 import { styles } from "../Styles";
 import NavBar from "./Layouts/NavBar";
 import NotificationBar, { NotificationMessage } from "./Misc/Notifications";
+import { getConfig } from "../Scripts/getConfig";
 
 declare interface MainProps {
   theme: "light" | "dark";
@@ -15,13 +16,14 @@ const Main: React.FunctionComponent<MainProps> = ({ theme, toggleTheme }) => {
     message: "",
     open: false,
   });
+  const config = getConfig();
 
   const classes = styles();
 
   return (
     <Fragment>
       <NavBar
-        pageTitle={"TODO: PULL FROM CONFIG"}
+        pageTitle={config.config.hackathonName}
         theme={theme}
         toggleTheme={toggleTheme}
       />
