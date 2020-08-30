@@ -1,9 +1,14 @@
 import { createMuiTheme } from "@material-ui/core";
-import { teal } from "@material-ui/core/colors";
+import { getConfig } from "../Scripts/getConfig";
+
+const config = getConfig();
 
 export const lightTheme = createMuiTheme({
   palette: {
-    primary: teal,
+    primary:
+      typeof config.config.brandingColor === "string"
+        ? { main: config.config.brandingColor }
+        : undefined,
     secondary: undefined,
     success: undefined,
     error: undefined,
@@ -15,7 +20,10 @@ export const lightTheme = createMuiTheme({
 export const darkTheme = createMuiTheme({
   palette: {
     type: "dark",
-    primary: teal,
+    primary:
+      typeof config.config.brandingColor === "string"
+        ? { main: config.config.brandingColor }
+        : undefined,
     secondary: undefined,
     success: undefined,
     error: undefined,
@@ -23,5 +31,3 @@ export const darkTheme = createMuiTheme({
     warning: undefined,
   },
 });
-
-// TODO: Configure from Config Files

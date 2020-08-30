@@ -11,9 +11,8 @@ This is the main document that defines common attributes for your hackathon in g
 ```json
 {
   "hackathonName": "The name of your hackathon",
-  "timeZoneOffset": "The time zone offset from UTC for the time zone you are in. Pay special attention to standard time vs. daylight saving time.",
-  "brandingColor": "Either a hex color code, or a Material standard color (Example: Red[500]). For more information, check out https://material.io/design/color/the-color-system.html#tools-for-picking-colors/",
-  "mainWebsiteUrl": "The URL of your main website."
+  "timeZoneOffset": "The time zone offset from UTC for the time zone you are in. Pay special attention to standard time vs. daylight saving time. (Examples: -4, 1, 9.5, '-4', '+1', '-4:00', '+1:00', '+9:30').",
+  "brandingColor": "Either a hex color code, or a Material standard color (Example: 'Red' or 'Red[500]'). For more information, check out https://material.io/design/color/the-color-system.html#tools-for-picking-colors/"
 }
 ```
 
@@ -160,6 +159,7 @@ Have important links for your hackers to know? Add them here!
   "twitch": "A link to your hackathon's Twitch stream",
   "youtube": "A link to your hackathon's YouTube channel",
   "devpost": "A link to your hackathon's Devpost page",
+  "website": "A link to your hackathon's main website",
   "otherLinks": [
     {
       "linkTitle": "A description of the link",

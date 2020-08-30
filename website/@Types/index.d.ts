@@ -9,7 +9,6 @@ declare interface ConfigSchema {
   hackathonName: string;
   timeZoneOffset: number;
   brandingColor?: string | Color;
-  mainWebsiteUrl?: string;
 }
 
 declare interface SchemaError {

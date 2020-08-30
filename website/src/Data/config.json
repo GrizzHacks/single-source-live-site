@@ -1,6 +1,6 @@
 {
-  "hackathonName": 42,
-  "timeZoneOffset": -4,
-  "brandingColor": "Blue[500]",
+  "hackathonName": "MyHackathon",
+  "timeZoneOffset": "-4",
+  "brandingColor": "#0A1172",
   "mainWebsiteUrl": "https://github.com/andrewdimmer/single-source"
 }

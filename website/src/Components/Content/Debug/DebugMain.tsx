@@ -27,7 +27,7 @@ const DebugMain: React.FunctionComponent<DebugMainProps> = ({
       <Container className={classes.pageTitle}>
         <Typography variant="h5">Schema Time Zone</Typography>
         <Typography variant="body1">
-          {config.config.timeZoneOffset} offest from UTC.
+          {config.config.timeZoneOffset} hour offest from UTC.
         </Typography>
       </Container>
       <Container className={classes.pageTitle}>
