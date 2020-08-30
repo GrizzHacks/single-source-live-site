@@ -6,10 +6,11 @@ import { styles } from "../Styles";
 import DebugMain from "./Content/Debug/DebugMain";
 import EventsMain from "./Content/Events/EventsMain";
 import LinksMain from "./Content/Links/LinksMain";
-import ResourcesMain from "./Content/Resources/ResourcesMain";
 import StagesMain from "./Content/Stages/StagesMain";
 import NavBar from "./Layouts/NavBar";
 import NotificationBar, { NotificationMessage } from "./Misc/Notifications";
+import PrizesMain from "./Content/Prizes/PrizesMain";
+import ResourcesMain from "./Content/Resources/ResourcesMain";
 
 declare interface MainProps {
   theme: "light" | "dark";
@@ -48,6 +49,12 @@ const Main: React.FunctionComponent<MainProps> = ({ theme, toggleTheme }) => {
           <Fragment>
             <Divider className={classes.marginedTopBottom} />
             <EventsMain events={config.events} classes={classes} />
+          </Fragment>
+        )}
+        {config.prizes.length > 0 && (
+          <Fragment>
+            <Divider className={classes.marginedTopBottom} />
+            <PrizesMain prizes={config.prizes} classes={classes} />
           </Fragment>
         )}
         {config.resources.length > 0 && (

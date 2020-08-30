@@ -77,7 +77,7 @@ This defines prizes and prize cateogries you have at your hackaton.
     {
       "prizeName": "The name of the prize track. (Examples: 'Best Hardware Hack', 'Most Creative Hack', '1st Place', etc.).",
       "prizeSponsor": "The name of your prize sponsor. (Examples: 'Google Cloud Platform', 'MLH', etc.).",
-      "description": "A description of the prize track. (Example: 'Build something fun to remember the Summer with.').",
+      "prizeDescription": "A description of the prize track. (Example: 'Build something fun to remember the Summer with.').",
       "prize": "The prize you are giving. (Examples: 'Nitendo Switch', '$100 Amazon Gift Card', 'Inteview with a VC', etc.).",
       "prizeValue": "If you want to show the monitary value of the prize (say it is a free trial to something) add that here. (Example: '$79').",
       "eligibility": "If there are any requirements to go for this prize. (Examples: 'At least 50% of your team must be first time hackers', 'You must use Google Cloud Platform somewhere in your project', etc.)."
