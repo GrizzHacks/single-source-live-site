@@ -18,15 +18,26 @@ export const parseConfigJson = (): [ConfigSchema, SchemaError[]] => {
     if (typeof config.hackathonName === "string") {
       configSchema.hackathonName = config.hackathonName;
     } else {
-      configSchema.hackathonName = config.hackathonName.toString();
-      errors.push({
-        document: "config.json",
-        property: "hackathonName",
-        type: "warning",
-        error: "hackathonName is not a string.",
-        toFix:
-          "In most cases, just make sure your hackathon name has quotes around it.",
-      });
+      try {
+        // hackathonName can be converted to a string
+        configSchema.hackathonName = config.hackathonName.toString();
+        errors.push({
+          document: "config.json",
+          property: "hackathonName",
+          type: "warning",
+          error: "hackathonName is not a string.",
+          toFix:
+            "In most cases, just make sure your hackathon name has quotes around it.",
+        });
+      } catch {
+        // hackathonName cannot be converted to a string
+        errors.push({
+          document: "config.json",
+          property: "hackathonName",
+          type: "error",
+          error: "hackathonName is not a string.",
+        });
+      }
     }
   }
 
