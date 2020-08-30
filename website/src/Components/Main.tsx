@@ -1,9 +1,11 @@
-import { Container } from "@material-ui/core";
+import { Container, Fab } from "@material-ui/core";
+import BugReportIcon from "@material-ui/icons/BugReport";
 import React, { Fragment } from "react";
+import { getConfig } from "../Scripts/getConfig";
 import { styles } from "../Styles";
+import DebugMain from "./Content/Debug/DebugMain";
 import NavBar from "./Layouts/NavBar";
 import NotificationBar, { NotificationMessage } from "./Misc/Notifications";
-import { getConfig } from "../Scripts/getConfig";
 
 declare interface MainProps {
   theme: "light" | "dark";
@@ -16,6 +18,9 @@ const Main: React.FunctionComponent<MainProps> = ({ theme, toggleTheme }) => {
     message: "",
     open: false,
   });
+  const [debugInfo, setDebugInfo] = React.useState<boolean>(
+    window.location.href.includes("localhost")
+  );
   const config = getConfig();
 
   const classes = styles();
@@ -28,12 +33,24 @@ const Main: React.FunctionComponent<MainProps> = ({ theme, toggleTheme }) => {
         toggleTheme={toggleTheme}
       />
       <Container className={classes.marginedTopBottom}>
+        {debugInfo && <DebugMain config={config} classes={classes} />}
         {/** TODO: CONTENT GOES HERE */}
       </Container>
       <NotificationBar
         notification={notification}
         setNotification={setNotification}
       />
+      {window.location.href.includes("localhost") && (
+        <Fab
+          color="primary"
+          className={classes.fab}
+          onClick={() => {
+            setDebugInfo(!debugInfo);
+          }}
+        >
+          <BugReportIcon />
+        </Fab>
+      )}
     </Fragment>
   );
 };

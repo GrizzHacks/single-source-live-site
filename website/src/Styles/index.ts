@@ -31,6 +31,24 @@ export const styles = makeStyles((theme: Theme) =>
       padding: theme.spacing(2),
       textAlign: "center",
     },
+    infoColor: {
+      color: "#FFFFFF",
+      backgroundColor: theme.palette.info.main,
+    },
+    warningColor: {
+      color: "#FFFFFF",
+      backgroundColor: theme.palette.warning.main,
+    },
+    errorColor: {
+      color: "#FFFFFF",
+      backgroundColor: theme.palette.error.main,
+    },
+    fab: {
+      position: "absolute",
+      bottom: "0px",
+      right: "0px",
+      margin: theme.spacing(2),
+    },
   })
 );
 

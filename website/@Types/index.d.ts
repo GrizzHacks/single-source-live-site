@@ -15,8 +15,10 @@ declare interface ConfigSchema {
 declare interface SchemaError {
   document: string;
   property: string;
-  type: "warning" | "error";
+  type: SchemaErrorType;
   error: string;
   toFix?: string;
   toFixLinks?: [{ title: string; link: string }];
 }
+
+declare type SchemaErrorType = "warning" | "error" | "info";
