@@ -1,12 +1,13 @@
-import { Container, Fab } from "@material-ui/core";
+import { Container, Divider, Fab } from "@material-ui/core";
 import BugReportIcon from "@material-ui/icons/BugReport";
 import React, { Fragment } from "react";
 import { getConfig } from "../Scripts/getConfig";
 import { styles } from "../Styles";
 import DebugMain from "./Content/Debug/DebugMain";
+import LinksMain from "./Content/Links/LinksMain";
+import StagesMain from "./Content/Stages/StagesMain";
 import NavBar from "./Layouts/NavBar";
 import NotificationBar, { NotificationMessage } from "./Misc/Notifications";
-import StagesMain from "./Content/Stages/StagesMain";
 
 declare interface MainProps {
   theme: "light" | "dark";
@@ -19,9 +20,7 @@ const Main: React.FunctionComponent<MainProps> = ({ theme, toggleTheme }) => {
     message: "",
     open: false,
   });
-  const [debugInfo, setDebugInfo] = React.useState<boolean>(
-    window.location.href.includes("localhost")
-  );
+  const [debugInfo, setDebugInfo] = React.useState<boolean>(false);
   const config = getConfig();
 
   const classes = styles();
@@ -34,8 +33,15 @@ const Main: React.FunctionComponent<MainProps> = ({ theme, toggleTheme }) => {
         toggleTheme={toggleTheme}
       />
       <Container className={classes.marginedTopBottom}>
-        {debugInfo && <DebugMain config={config} classes={classes} />}
+        {debugInfo && (
+          <Fragment>
+            <DebugMain config={config} classes={classes} />
+            <Divider className={classes.marginedTopBottom} />
+          </Fragment>
+        )}
         <StagesMain stages={config.stages} classes={classes} />
+        <Divider className={classes.marginedTopBottom} />
+        <LinksMain links={config.links} classes={classes} />
         {/** TODO: CONTENT GOES HERE */}
       </Container>
       <NotificationBar

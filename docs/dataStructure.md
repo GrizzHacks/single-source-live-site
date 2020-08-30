@@ -148,6 +148,8 @@ Every hackathon needs some sort of support. Acknoledge your sponsors here!
 
 Have important links for your hackers to know? Add them here!
 
+TODO: Determine whether or not to keep "other links". This seems like a conflict with resources...
+
 ```json
 {
   "codeOfConduct": "The link to the code of conduct for your hackathon. If no link is provided, defaults to the MLH code of Conduct",
@@ -164,8 +166,8 @@ Have important links for your hackers to know? Add them here!
   "website": "A link to your hackathon's main website",
   "otherLinks": [
     {
-      "linkTitle": "A description of the link",
-      "link": "The link to go to."
+      "linkTitle": "A description of the link. COMING SOON!",
+      "link": "The link to go to. COMING SOON!"
     }
   ]
 }
