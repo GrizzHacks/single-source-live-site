@@ -6,6 +6,7 @@ import { styles } from "../Styles";
 import DebugMain from "./Content/Debug/DebugMain";
 import NavBar from "./Layouts/NavBar";
 import NotificationBar, { NotificationMessage } from "./Misc/Notifications";
+import StagesMain from "./Content/Stages/StagesMain";
 
 declare interface MainProps {
   theme: "light" | "dark";
@@ -34,6 +35,7 @@ const Main: React.FunctionComponent<MainProps> = ({ theme, toggleTheme }) => {
       />
       <Container className={classes.marginedTopBottom}>
         {debugInfo && <DebugMain config={config} classes={classes} />}
+        <StagesMain stages={config.stages} classes={classes} />
         {/** TODO: CONTENT GOES HERE */}
       </Container>
       <NotificationBar

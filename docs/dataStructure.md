@@ -20,12 +20,14 @@ This is the main document that defines common attributes for your hackathon in g
 
 This defines the different stages that show up on the main timer. For example, the banner at the top that says "Hacking ends in [Time]" would be defined by in this document.
 
+TODO: In the future, stages should automatically be sorted by end time. In the mean time, they go by array order.
+
 ```json
 {
   "stages": [
     {
       "stageName": "The name to put above the timer. (Examples: 'Registration Closes', 'Opening Cermoney Starts', 'Hacking Ends', 'Judging Starts', etc.).",
-      "endTime": "A date time in ISO 8601 format. Note that if no time zone is specified, it defaults to the timezone declared in config.json."
+      "endTime": "A date time in ISO 8601 format. Do not specify a time zone, it defaults to the timezone declared in config.json. (Example: '2020-08-30T13:00')."
     }
   ]
 }

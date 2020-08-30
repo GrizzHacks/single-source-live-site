@@ -2,6 +2,7 @@ import { Color } from "@material-ui/core";
 
 declare interface Schema {
   config: ConfigSchema;
+  stages: StageSchema[];
   errors: SchemaError[];
 }
 
@@ -9,6 +10,11 @@ declare interface ConfigSchema {
   hackathonName: string;
   timeZoneOffset: number;
   brandingColor?: string | Color;
+}
+
+declare interface StageSchema {
+  stageName: string;
+  endTime: Date;
 }
 
 declare interface SchemaError {

@@ -49,6 +49,12 @@ export const styles = makeStyles((theme: Theme) =>
       right: "0px",
       margin: theme.spacing(2),
     },
+    stageTimerNumberCard: {
+      padding: theme.spacing(2),
+      textAlign: "center",
+      backgroundColor: theme.palette.primary.main,
+      color: theme.palette.getContrastText(theme.palette.primary.main),
+    },
   })
 );
 
