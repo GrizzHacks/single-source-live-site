@@ -107,6 +107,8 @@ This defines any resources you want to share with hackers at your hackaton. Note
 
 This defines any information you have about submitting to your hackathon.
 
+TODO: Add a Parser and Display for this section.
+
 ```json
 {
   "submissionLink": "A link to your submission system. (Example: 'your-hackathon.devpost.com').",
@@ -132,6 +134,8 @@ This defines any information you have about submitting to your hackathon.
 ## sponsors.json
 
 Every hackathon needs some sort of support. Acknoledge your sponsors here!
+
+TODO: Add a Parser and Display for this section.
 
 ```json
 {

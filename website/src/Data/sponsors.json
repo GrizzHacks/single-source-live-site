@@ -1,0 +1,12 @@
+{
+  "sponsors": [
+    {
+      "sponsorName": "The name of your sponsor. (Example: 'Major League Hacking').",
+      "logoUrl": "A link to the sponsor's logo",
+      "sponsorLink": "A link to the sponsor's website",
+      "tier": "If your hackathon has sponsor tiers, specify the tier here. Note, you also need to define the order of the tiers in the tiers list below.",
+      "logoSize": "xl, l, m, sm, xs"
+    }
+  ],
+  "tiers": ["top tier", "middle tier(s)", "bottom tier"]
+}

@@ -1,0 +1,19 @@
+{
+  "submissionLink": "A link to your submission system. (Example: 'your-hackathon.devpost.com').",
+  "softDeadline": "This is the time an entry needs to be made in the submission system.",
+  "hardDeadline": "This is the time when hacking stops and editing submissions cuts off, and all new submissions may not be judged.",
+  "requirements": [
+    {
+      "requirementTitle": "The name of the requirement. (Examples: 'Demo Video', 'Code Repository', etc.).",
+      "requirementDescription": "A description of the requirement. (Examples: 'You must submit a public demo video showing your project in less than 2 minutes', 'Please submit a link to a GitHub repository containing your source code', etc.)."
+    }
+  ],
+  "instructions": "COMING SOON!",
+  "tutorialVideo": "COMING SOON!",
+  "judgingCriteria": [
+    {
+      "criteriaTitle": "The general category of what you are judging on. (Example: 'Creativity', 'Technical Implementation', etc.).",
+      "description": "More info about the criteria here"
+    }
+  ]
+}
