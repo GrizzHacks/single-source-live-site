@@ -43,8 +43,12 @@ export const styles = makeStyles((theme: Theme) =>
       color: "#FFFFFF",
       backgroundColor: theme.palette.error.main,
     },
+    brandingColor: {
+      color: theme.palette.getContrastText(theme.palette.primary.main),
+      backgroundColor: theme.palette.primary.main,
+    },
     fab: {
-      position: "absolute",
+      position: "fixed",
       bottom: "0px",
       right: "0px",
       margin: theme.spacing(2),

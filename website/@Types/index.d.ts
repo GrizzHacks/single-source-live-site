@@ -3,6 +3,7 @@ import { Color } from "@material-ui/core";
 declare interface Schema {
   config: ConfigSchema;
   stages: StageSchema[];
+  events: EventSchema[];
   links: LinksSchema;
   errors: SchemaError[];
 }
@@ -16,6 +17,25 @@ declare interface ConfigSchema {
 declare interface StageSchema {
   stageName: string;
   endTime: Date;
+}
+
+declare interface EventSchema {
+  eventName: string;
+  speakers: EventSpeakerSchema[];
+  startTime: Date;
+  endTime: Date;
+  eventDescription: string;
+  icon: string;
+  type: string;
+  location?: string;
+  joinLink?: string;
+  eventColor?: string;
+}
+
+declare interface EventSpeakerSchema {
+  speakerName: string;
+  speakerRole: string;
+  speakerPhoto: string;
 }
 
 declare interface LinksSchema {

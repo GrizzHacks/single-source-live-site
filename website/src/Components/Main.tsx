@@ -8,6 +8,7 @@ import LinksMain from "./Content/Links/LinksMain";
 import StagesMain from "./Content/Stages/StagesMain";
 import NavBar from "./Layouts/NavBar";
 import NotificationBar, { NotificationMessage } from "./Misc/Notifications";
+import EventsMain from "./Content/Events/EventsMain";
 
 declare interface MainProps {
   theme: "light" | "dark";
@@ -42,6 +43,12 @@ const Main: React.FunctionComponent<MainProps> = ({ theme, toggleTheme }) => {
         <StagesMain stages={config.stages} classes={classes} />
         <Divider className={classes.marginedTopBottom} />
         <LinksMain links={config.links} classes={classes} />
+        {config.events.length > 0 && (
+          <Fragment>
+            <Divider className={classes.marginedTopBottom} />
+            <EventsMain events={config.events} classes={classes} />
+          </Fragment>
+        )}
         {/** TODO: CONTENT GOES HERE */}
       </Container>
       <NotificationBar

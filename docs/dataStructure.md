@@ -37,6 +37,10 @@ TODO: In the future, stages should automatically be sorted by end time. In the m
 
 This defines the events that take place at your hackaton. For example, this is where you would lay out your schedule for opening/closing cermonies, workshops, tech talks, mini-events, meals, and more.
 
+TODO: Speaker Information Coming Soon!
+
+TODO: In the future, events should automatically be sorted by end time. In the mean time, they go by array order.
+
 ```json
 {
   "events": [
@@ -53,7 +57,7 @@ This defines the events that take place at your hackaton. For example, this is w
       "startTime": "A date time in ISO 8601 format. Note that if no time zone is specified, it defaults to the timezone declared in config.json.",
       "endTime": "A date time in ISO 8601 format. Note that if no time zone is specified, it defaults to the timezone declared in config.json.",
       "eventDescription": "A description of the event",
-      "icon": "A Material Icon to represent the event. This is helpful to mark the type of events via a symbol. Defaults to calendar_today if not defined. For more info on Material icons, check out https://material.io/resources/icons/?style=baseline",
+      "icon": "COMING SOON! A Material Icon to represent the event. This is helpful to mark the type of events via a symbol. Defaults to calendar_today if not defined. For more info on Material icons, check out https://material.io/resources/icons/?style=baseline.",
       "type": "The type of event. (Examples: 'Virtual Workshop', 'Meal', 'Mini-Event', 'Virtual Networking', etc.).",
       "location": "The location of the event. (Example: 'Room A113', 'Registration Desk', 'Main Lobby', etc.).",
       "joinLink": "Hosting a virtual event or live streaming an in person event? Add the link here! Goes live to hackers 10 minutes before the scheduled start time",
