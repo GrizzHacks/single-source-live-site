@@ -94,7 +94,7 @@ This defines any resources you want to share with hackers at your hackaton. Note
 {
   "resources": [
     {
-      "resourceTitle": "The title of the resource. (Example: 'Get started with Machine Learning on Google Cloud Platform').",
+      "resourceName": "The title of the resource. (Example: 'Get started with Machine Learning on Google Cloud Platform').",
       "resourceDescription": "A description of what the reource is. (Example: 'Start using machine learning in your project with no prior expirence. Learn about ML APIs that you can use out of the box, and AutoML to train your own with no programming required.').",
       "resourceLink": "A link to the resource.",
       "resourceValue": "Have a resource your giving for free at your hackathon (like a free domain name)? Add the value here!"

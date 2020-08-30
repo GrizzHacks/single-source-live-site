@@ -2,6 +2,7 @@ import { Schema } from "../../@Types";
 import { parseConfigJson } from "./parseConfigJson";
 import { parseEventsJson } from "./parseEventsJson";
 import { parseLinksJson } from "./parseLinksJson";
+import { parseResourcesJson } from "./parseResourcesJson";
 import { parseStagesJson } from "./parseStagesJson";
 
 let schema: Schema | null = null;
@@ -17,12 +18,19 @@ const readSchema = (): Schema => {
   const [config, configErrors] = parseConfigJson();
   const [stages, stageErrors] = parseStagesJson(config.timeZoneOffset);
   const [events, eventErrors] = parseEventsJson(config.timeZoneOffset);
+  const [resources, resourceErrors] = parseResourcesJson();
   const [links, linkErrors] = parseLinksJson();
   return {
     config,
     stages,
     events,
+    resources,
     links,
-    errors: configErrors.concat(stageErrors, eventErrors, linkErrors),
+    errors: configErrors.concat(
+      stageErrors,
+      eventErrors,
+      resourceErrors,
+      linkErrors
+    ),
   };
 };

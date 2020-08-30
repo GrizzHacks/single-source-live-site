@@ -4,6 +4,7 @@ declare interface Schema {
   config: ConfigSchema;
   stages: StageSchema[];
   events: EventSchema[];
+  resources: ResourceSchema[];
   links: LinksSchema;
   errors: SchemaError[];
 }
@@ -36,6 +37,13 @@ declare interface EventSpeakerSchema {
   speakerName: string;
   speakerRole: string;
   speakerPhoto: string;
+}
+
+declare interface ResourceSchema {
+  resourceName: string;
+  resourceDescription: string;
+  resourceLink: string;
+  resourceValue?: string;
 }
 
 declare interface LinksSchema {

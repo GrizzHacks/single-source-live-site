@@ -4,11 +4,12 @@ import React, { Fragment } from "react";
 import { getConfig } from "../Scripts/getConfig";
 import { styles } from "../Styles";
 import DebugMain from "./Content/Debug/DebugMain";
+import EventsMain from "./Content/Events/EventsMain";
 import LinksMain from "./Content/Links/LinksMain";
+import ResourcesMain from "./Content/Resources/ResourcesMain";
 import StagesMain from "./Content/Stages/StagesMain";
 import NavBar from "./Layouts/NavBar";
 import NotificationBar, { NotificationMessage } from "./Misc/Notifications";
-import EventsMain from "./Content/Events/EventsMain";
 
 declare interface MainProps {
   theme: "light" | "dark";
@@ -47,6 +48,12 @@ const Main: React.FunctionComponent<MainProps> = ({ theme, toggleTheme }) => {
           <Fragment>
             <Divider className={classes.marginedTopBottom} />
             <EventsMain events={config.events} classes={classes} />
+          </Fragment>
+        )}
+        {config.resources.length > 0 && (
+          <Fragment>
+            <Divider className={classes.marginedTopBottom} />
+            <ResourcesMain resources={config.resources} classes={classes} />
           </Fragment>
         )}
         {/** TODO: CONTENT GOES HERE */}
