@@ -1,6 +1,6 @@
 import { PrizeSchema, SchemaError } from "../../@Types";
 import prizesJson from "../Data/prizes.json";
-import { propertyExistsFactory, warnIfNotLinkFactory } from "./parseHelpers";
+import { propertyExistsFactory } from "./parseHelpers";
 
 export const parsePrizesJson = (): [PrizeSchema[], SchemaError[]] => {
   const prizes: { [key: string]: any } = prizesJson;
@@ -26,12 +26,12 @@ export const parsePrizesJson = (): [PrizeSchema[], SchemaError[]] => {
           errors,
           `prizes[${index}]`
         );
-        const warnIfNotLink = warnIfNotLinkFactory(
+        /* const warnIfNotLink = warnIfNotLinkFactory(
           currentPrize,
           "prizes.json",
           errors,
           `prizes[${index}]`
-        );
+        ); */
         const hasPrizeName = propertyExistsInPrize(
           "prizeName",
           true,

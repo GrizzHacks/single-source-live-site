@@ -5,7 +5,7 @@ import {
   ListItemText,
   Typography,
 } from "@material-ui/core";
-import BookIcon from "@material-ui/icons/Book";
+import CategoryIcon from "@material-ui/icons/Category";
 import React, { Fragment } from "react";
 import { PrizeSchema } from "../../../../@Types";
 
@@ -22,7 +22,7 @@ const PrizeInfo: React.FunctionComponent<PrizeInfoProps> = ({
     <ListItem alignItems="flex-start">
       <ListItemAvatar>
         <Avatar className={classes.brandingColor}>
-          <BookIcon />
+          <CategoryIcon />
         </Avatar>
       </ListItemAvatar>
       <ListItemText
