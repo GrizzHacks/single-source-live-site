@@ -11,6 +11,7 @@ export const parseConfigJson = (): [ConfigSchema, SchemaError[]] => {
   const configSchema: ConfigSchema = {
     hackathonName: "",
     timeZoneOffset: 0,
+    tabs: false,
   };
 
   // hackathonName
@@ -82,6 +83,17 @@ export const parseConfigJson = (): [ConfigSchema, SchemaError[]] => {
         error: brandingColorParsed[0],
         toFix: brandingColorParsed[1],
       });
+    }
+
+    // tabs
+    if (
+      propertyExists(
+        "tabs",
+        false,
+        "a boolean representing if tabs or a single scrolling page should be used to seperate sections. If no value is provided, the site is layed out as a single scrolling page"
+      )
+    ) {
+      configSchema.tabs = config.tabs;
     }
   }
 

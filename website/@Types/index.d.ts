@@ -14,6 +14,7 @@ declare interface ConfigSchema {
   hackathonName: string;
   timeZoneOffset: number;
   brandingColor?: string | Color;
+  tabs: boolean;
 }
 
 declare interface StageSchema {

@@ -12,7 +12,8 @@ This is the main document that defines common attributes for your hackathon in g
 {
   "hackathonName": "The name of your hackathon",
   "timeZoneOffset": "The time zone offset from UTC for the time zone you are in. Pay special attention to standard time vs. daylight saving time. (Examples: -4, 1, 9.5, '-4', '+1', '-4:00', '+1:00', '+9:30').",
-  "brandingColor": "Either a hex color code, or a Material standard color (Example: 'Red' or 'Red[500]'). For more information, check out https://material.io/design/color/the-color-system.html#tools-for-picking-colors/"
+  "brandingColor": "Either a hex color code, or a Material standard color (Example: 'Red' or 'Red[500]'). For more information, check out https://material.io/design/color/the-color-system.html#tools-for-picking-colors/",
+  "tabs": "A boolean representing if tabs or a single scrolling page should be used to seperate sections."
 }
 ```
 

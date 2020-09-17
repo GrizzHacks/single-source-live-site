@@ -4,13 +4,12 @@ import React, { Fragment } from "react";
 import { getConfig } from "../Scripts/getConfig";
 import { styles } from "../Styles";
 import DebugMain from "./Content/Debug/DebugMain";
-import EventsMain from "./Content/Events/EventsMain";
 import LinksMain from "./Content/Links/LinksMain";
 import StagesMain from "./Content/Stages/StagesMain";
 import NavBar from "./Layouts/NavBar";
+import ScrollingSections from "./Layouts/ScrollingSections";
+import TabbedSections from "./Layouts/TabbedSections";
 import NotificationBar, { NotificationMessage } from "./Misc/Notifications";
-import PrizesMain from "./Content/Prizes/PrizesMain";
-import ResourcesMain from "./Content/Resources/ResourcesMain";
 
 declare interface MainProps {
   theme: "light" | "dark";
@@ -43,27 +42,14 @@ const Main: React.FunctionComponent<MainProps> = ({ theme, toggleTheme }) => {
           </Fragment>
         )}
         <StagesMain stages={config.stages} classes={classes} />
-        <Divider className={classes.marginedTopBottom} />
+        <Divider className={classes.marginedTopBottom} />{" "}
+        {/* FIXME: Only show the divider if there is a timer/ */}
         <LinksMain links={config.links} classes={classes} />
-        {config.events.length > 0 && (
-          <Fragment>
-            <Divider className={classes.marginedTopBottom} />
-            <EventsMain events={config.events} classes={classes} />
-          </Fragment>
+        {config.config.tabs ? (
+          <TabbedSections config={config} classes={classes} />
+        ) : (
+          <ScrollingSections config={config} classes={classes} />
         )}
-        {config.prizes.length > 0 && (
-          <Fragment>
-            <Divider className={classes.marginedTopBottom} />
-            <PrizesMain prizes={config.prizes} classes={classes} />
-          </Fragment>
-        )}
-        {config.resources.length > 0 && (
-          <Fragment>
-            <Divider className={classes.marginedTopBottom} />
-            <ResourcesMain resources={config.resources} classes={classes} />
-          </Fragment>
-        )}
-        {/** TODO: CONTENT GOES HERE */}
       </Container>
       <NotificationBar
         notification={notification}
