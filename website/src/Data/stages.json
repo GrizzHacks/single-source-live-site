@@ -1,16 +1,32 @@
 {
   "stages": [
     {
-      "stageName": "Timer Done",
-      "endTime": "2020-08-30T02:51"
+      "stageName": "Opening Ceremony",
+      "endTime": "2020-09-18T19:00"
     },
     {
-      "stageName": "Devpost Due",
-      "endTime": "2020-08-30T08:00"
+      "stageName": "Team Formation",
+      "endTime": "2020-09-18T20:00"
     },
     {
-      "stageName": "Judging Starts",
-      "endTime": "2020-08-30T10:00"
+      "stageName": "Hacking Starts",
+      "endTime": "2020-09-18T20:30"
+    },
+    {
+      "stageName": "Hacking Ends and Initial Devpost Due",
+      "endTime": "2020-09-20T08:30"
+    },
+    {
+      "stageName": "Final Devpost (Video, Write Up, Code Repo) Due",
+      "endTime": "2020-09-20T10:00"
+    },
+    {
+      "stageName": "Top 10 Demos",
+      "endTime": "2020-09-20T13:30"
+    },
+    {
+      "stageName": "Closing Ceremony",
+      "endTime": "2020-09-20T15:00"
     }
   ]
 }
