@@ -1,11 +1,11 @@
 import {
   Avatar,
+  Button,
+  Container,
   ListItem,
   ListItemAvatar,
   ListItemText,
   Typography,
-  ListItemSecondaryAction,
-  Button,
 } from "@material-ui/core";
 import CalendarTodayIcon from "@material-ui/icons/CalendarToday";
 import React, { Fragment } from "react";
@@ -43,24 +43,25 @@ const EventInfo: React.FunctionComponent<EventInfoProps> = ({
             </Typography>
             <br />
             {event.eventDescription}
+            {event.joinLink &&
+              event.startTime.valueOf() - 60000 * 10 <=
+                currentTimeMilliseconds &&
+              event.endTime.valueOf() >= currentTimeMilliseconds && (
+                <Container className={classes.pageTitle}>
+                  <Button
+                    color="primary"
+                    variant="contained"
+                    onClick={() => {
+                      window.open(event.joinLink, "_blank");
+                    }}
+                  >
+                    Join Virtually!
+                  </Button>
+                </Container>
+              )}
           </Fragment>
         }
       />
-      {event.joinLink &&
-        event.startTime.valueOf() - 60000 * 10 <= currentTimeMilliseconds &&
-        event.endTime.valueOf() >= currentTimeMilliseconds && (
-          <ListItemSecondaryAction>
-            <Button
-              color="primary"
-              variant="contained"
-              onClick={() => {
-                window.open(event.joinLink, "_blank");
-              }}
-            >
-              Join Virtually!
-            </Button>
-          </ListItemSecondaryAction>
-        )}
       {/** TODO: Add Speakers, Custom Icons, and Custom Colors **/}
     </ListItem>
   );
