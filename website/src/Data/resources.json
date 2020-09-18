@@ -3,13 +3,37 @@
     {
       "resourceName": "GitHub Student Developer Pack",
       "resourceDescription": "'Learn to ship software like a pro. There's no substitute for hands-on experience. But for most students, real world tools can be cost-prohibitive. That's why we created the GitHub Student Developer Pack with some of our partners and friends: to give students free access to the best developer tools in one place so they can learn by doing.' - GitHub Education",
-      "resourceLink": "https://education.github.com/pack",
-      "resourceValue": "$$$"
+      "resourceLink": "https://education.github.com/pack"
     },
     {
-      "resourceName": "Hackathon Starter Kits & Guides",
+      "resourceName": "MLH Hackathon Starter Kits & Guides",
       "resourceDescription": "Get started at your hackathon right out of the gate with these awesome starter kits!",
       "resourceLink": "https://hack.mlh.io/learn/"
+    },
+    {
+      "resourceName": "MLH Software Resources",
+      "resourceDescription": "Take a look at all of the great software you have access to through Major League Hacking this weekend!",
+      "resourceLink": "https://hack.mlh.io/software/"
+    },
+    {
+      "resourceName": "MLH Hardware Resources",
+      "resourceDescription": "Get started with a hardware hack with training from Major League Hacking!",
+      "resourceLink": "https://hack.mlh.io/learn/"
+    },
+    {
+      "resourceName": "Introduction to Slack Tutorial",
+      "resourceDescription": "New to Slack? Check out this quick video tutorial to help get you up to speed with the basics.",
+      "resourceLink": "https://youtu.be/ycyvvhjdly4"
+    },
+    {
+      "resourceName": "Introduction to Google Meetings",
+      "resourceDescription": "New to Google Meetings? Check out this quick video tutorial to help get you up to speed with the basics.",
+      "resourceLink": "https://youtu.be/cdVkOVa2K2A"
+    },
+    {
+      "resourceName": "Introduction to Devpost",
+      "resourceDescription": "New to Hackathons and haven't used Devpost before? Check out this quick video tutorial to help get you up to speed with the basics.",
+      "resourceLink": "https://youtu.be/Va7phctBGVQ"
     }
   ]
 }
