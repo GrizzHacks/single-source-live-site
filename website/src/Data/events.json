@@ -30,31 +30,31 @@
     },
     {
       "eventName": "Introduction to GitHub",
-      "speakers": [],
+      "speakers": ["Andrew Dimmer"],
       "startTime": "2020-09-18T21:00",
       "endTime": "2020-09-18T22:00",
       "eventDescription": "As with any project, having the right tools for the job is a key part of being successful. In this workshop, learn about version control and GitHub, essential tools that help software developers colaborate and share code. Never used GitHub before? That's totally fine! We'll take you through the basics, from creating your account, to creating a code repository, to adding code. Already somewhat familiar with GitHub? That's fine too! We'll be teaching more advanced concepts like pull requests, conventional commits, software versioning, and more! For every hacker, this workshop is a great help in competing for the \"Best Use of DevOps Tools\" prize!",
-      "type": "Workshop",
+      "type": "Tech Talk",
       "location": "Google Meeting",
       "joinLink": "https://meet.google.com/tgw-pkcu-fic"
     },
     {
       "eventName": "Introduction to Android Development",
-      "speakers": [],
+      "speakers": ["Adam McNeilly"],
       "startTime": "2020-09-18T22:00",
       "endTime": "2020-09-18T23:00",
       "eventDescription": "Want to get started with building mobile apps? Join Adam McNeilly, a Google Developer Expert in Android Development and one of the GrizzHacks founders as he walks you through the basics of creating your first app in Android Studio!",
-      "type": "Workshop",
+      "type": "Tech Talk",
       "location": "Google Meeting",
       "joinLink": "https://meet.google.com/cyd-ttcb-qun"
     },
     {
       "eventName": "Introduction to Web Development",
-      "speakers": [],
+      "speakers": ["Andrew Dimmer"],
       "startTime": "2020-09-18T23:00",
       "endTime": "2020-09-19T00:00",
       "eventDescription": "Want to get started with building websites? Get a crash course of some of the many tools that can be used for web development. Never built a website before? We'll be starting with HTML and CSS to put together your first website. Already know HTML and CSS? We'll then be talking about Bootstrap and basic JavaScript to take your website to the next level. Finally, want to try a framework? We'll be wrapping up the workshop with a quick introduction to React, one of the most popular JavaScript frameworks!",
-      "type": "Workshop",
+      "type": "Tech Talk",
       "location": "Google Meeting",
       "joinLink": "https://meet.google.com/imd-vwmg-mfk"
     },
@@ -94,7 +94,8 @@
       "startTime": "2020-09-19T03:00",
       "endTime": "2020-09-19T04:00",
       "eventDescription": "Feeling hungry? So are we! Take a photo of your 3am snack food and share it with us on social media or in Slack",
-      "type": "Activity"
+      "type": "Activity",
+      "location": "Slack"
     },
     {
       "eventName": "Stretch it out in a Yoga Session",
@@ -167,19 +168,158 @@
       "joinLink": "https://meet.google.com/qxq-guei-fnc"
     },
     {
-      "eventName": "More Info Coming Soon!",
+      "eventName": "Sponsorship Expo",
       "speakers": [],
-      "startTime": "2020-09-19T00:00",
-      "endTime": "2020-09-20T00:00",
-      "eventDescription": "We've got a great day full of workshops, mini-events, and more planned for Saturday! Hang tight while we just finish up the last of our scheduling!",
-      "type": "Coming Soon"
+      "startTime": "2020-09-19T13:00",
+      "endTime": "2020-09-19T15:00",
+      "eventDescription": "Network with our sponsoring companies in this one-of-a-kind sponsorship expo! Share your resume, ask questions, and get the inside scoop on our sponsors.",
+      "type": "Sponsorship Expo",
+      "location": "Slack"
+    },
+    {
+      "eventName": "Amazon Engineering: A Tech Talk with Amazon",
+      "speakers": ["Fletcher Liverance"],
+      "startTime": "2020-09-19T14:00",
+      "endTime": "2020-09-19T15:00",
+      "eventDescription": "Come hear from Fletcher Liverance about working as an engineer at Amazon! This will be an exciting talk full of interesting information",
+      "type": "Tech Talk",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/tse-ohjr-vhw"
+    },
+    {
+      "eventName": "From Local Host to Production - A DevSecOps Journey Tech Talk with Ally",
+      "speakers": ["Josef Hoenzsch"],
+      "startTime": "2020-09-19T15:00",
+      "endTime": "2020-09-19T16:00",
+      "eventDescription": "Don’t wait until the last minute to automate your builds and deployments, shift left and create secure, scalable software patterns. Join us and learn about Continuous Integration, Continuous Delivery/Deployment, Automation, Testing, Security Scanning, Monitoring, Docker, Kubernetes, OpenShift, Helm, Jenkins, and more. This Tech Talk will be a combination of presentation and live demo with a healthy amount of Q&A. Prior experience with CI/CD and DevSecOps NOT necessary.",
+      "type": "Tech Talk",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/paa-oaif-jgx"
+    },
+    {
+      "eventName": "Office Hours with Little Caesars",
+      "speakers": ["Keith Faigin", "Tim Somero"],
+      "startTime": "2020-09-19T16:00",
+      "endTime": "2020-09-19T17:00",
+      "eventDescription": "Don't miss the opportunity to meet with, speak, and ask questions to two awesome Little Caesar employees!",
+      "type": "Office Hours",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/vqd-xyzb-wsk"
+    },
+    {
+      "eventName": "Innovation at Comerica and How We Innovate: A Tech Talk by Comerica",
+      "speakers": ["Vaishali Bhatt"],
+      "startTime": "2020-09-19T17:00",
+      "endTime": "2020-09-19T18:00",
+      "eventDescription": "Don't miss the opporLearn how to innovate with Vaishali Bhatt, the VP Enterprise Architect at Comerica!",
+      "type": "Tech Talk",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/ccx-nxjy-phc"
+    },
+    {
+      "eventName": "Paint Like Bob Ross with MLH",
+      "speakers": [],
+      "startTime": "2020-09-19T17:00",
+      "endTime": "2020-09-19T18:00",
+      "eventDescription": "Wanna paint like Bob Ross? Come learn with our Major League Hacking representative, Surya!",
+      "type": "Activity",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/qcr-pmjm-pvn"
+    },
+    {
+      "eventName": "Think Like a Hacker: A Tech Talk with Little Caesars",
+      "speakers": ["Jason Brown"],
+      "startTime": "2020-09-19T18:00",
+      "endTime": "2020-09-19T19:00",
+      "eventDescription": "Do you like to eat pizza and think like a hacker? Then you'll love this Tech Talk given by Jason Brown of Little Caesars.",
+      "type": "Tech Talk",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/tsp-mphq-prh"
+    },
+    {
+      "eventName": "Relaxing Yoga",
+      "speakers": [],
+      "startTime": "2020-09-19T18:00",
+      "endTime": "2020-09-19T19:00",
+      "eventDescription": "Overwhelmed? Calm your mind with a yoga session, led by a yoga enthusiast",
+      "type": "Activity",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/tjf-amwa-vjy"
+    },
+    {
+      "eventName": "A Unique Double Feature with FCA!",
+      "speakers": ["Marnatha Charnarthi", "Charlie Cross", "Lucas Romero"],
+      "startTime": "2020-09-19T19:00",
+      "endTime": "2020-09-19T20:00",
+      "eventDescription": "In part one - beginning at 7:00pm - you'll see \"How innovation is a cornerstone of FCA's culture: innovations across FCA as part of the digital transformation\" by Mamatha Chamarthi - FCA CIO. In part two, watch Charlie Cross & Lucas Romero talk about \"Every day is a hackathon: Innovations in Connected Vehicles at FCA\"",
+      "type": "Tech Talk",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/jfy-nbwh-mxq"
+    },
+    {
+      "eventName": "Submitting Your Projects - A Discussion",
+      "speakers": ["Andrew Dimmer"],
+      "startTime": "2020-09-19T20:30",
+      "endTime": "2020-09-19T21:00",
+      "eventDescription": "Don't know what you'll need for your project submission tomorrow, or can't quite figure out how to do it? Attend this all-informative talk!",
+      "type": "Tech Talk",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/cqa-qbqz-dre"
+    },
+    {
+      "eventName": "Hacker Hangout 2",
+      "speakers": [],
+      "startTime": "2020-09-19T21:00",
+      "endTime": "2020-09-19T22:00",
+      "eventDescription": "Meet your fellow attendees and answer some light-hearted questions here with our organizing team",
+      "type": "Activity",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/reb-zgwx-xjq"
+    },
+    {
+      "eventName": "Photo Challenge - A Marshmallow",
+      "speakers": [],
+      "startTime": "2020-09-19T22:00",
+      "endTime": "2020-09-19T23:00",
+      "eventDescription": "Got a marshmallow lying around? Decorate it up for GrizzHacks 5, and post it in our Slack or on our social media",
+      "type": "Activity",
+      "location": "Slack"
+    },
+    {
+      "eventName": "B-I-N-G-O!!!",
+      "speakers": [],
+      "startTime": "2020-09-19T23:00",
+      "endTime": "2020-09-19T23:30",
+      "eventDescription": "Let's play Bingo! Join us for a chance to win fame, glory, and possibly even prizes",
+      "type": "Activity",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/mmo-oxim-onx"
+    },
+    {
+      "eventName": "Picture Challenge - Is That a Cookie?",
+      "speakers": [],
+      "startTime": "2020-09-20T00:00",
+      "endTime": "2020-09-20T1:00",
+      "eventDescription": "Make us wonder if that is really a cookie by decorating the sweet treat as best as you can! Post it in the Slack or on our social media pages to show everyone your work",
+      "type": "Activity",
+      "location": "Slack"
+    },
+    {
+      "eventName": "Are You an Excel-lance Artist?",
+      "speakers": [],
+      "startTime": "2020-09-20T01:00",
+      "endTime": "2020-09-20T02:00",
+      "eventDescription": "Join our team to create some excel-lance art! Show off your work in our Slack or on social media",
+      "type": "Activity",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/ogn-pvwi-xgd"
     },
     {
       "eventName": "Hacking Ends",
       "speakers": [],
       "startTime": "2020-09-20T08:30",
       "endTime": "2020-09-20T08:30",
-      "eventDescription": "Hacking Ends and an initial Devpost submission with you project name, tagline, teammates, and prize categories is due!",
+      "eventDescription": "Hacking Ends and an initial Devpost submission with your project name, tagline, teammates, and prize categories are due!",
       "type": "Hacking Ends"
     },
     {
@@ -189,6 +329,16 @@
       "endTime": "2020-09-20T10:00",
       "eventDescription": "Judging starts now! Make sure your final demo video, write up, and code repo are up on Devpost!",
       "type": "Final Devpost Due"
+    },
+    {
+      "eventName": "U.S Air Force Cybersecurity Challenge",
+      "speakers": [],
+      "startTime": "2020-09-20T10:10",
+      "endTime": "2020-09-20T11:00",
+      "eventDescription": "Our MLH representative Surya will show you how to capture the flag - digitally!",
+      "type": "Activity",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/unx-xsdv-wss"
     },
     {
       "eventName": "Top 10 Demos",
