@@ -7,7 +7,7 @@
       "endTime": "2020-09-18T20:00",
       "eventDescription": "Come learn about all that is going on this weekend at the opening ceremony! We'll then be following up the opening ceremony with live Q&A.",
       "type": "Opening Ceremony",
-      "location": "Twitch or Youtube",
+      "location": "Facebook or Twitch or Youtube",
       "joinLink": "https://www.twitch.tv/grizzhacks"
     },
     {
@@ -57,6 +57,114 @@
       "type": "Workshop",
       "location": "Google Meeting",
       "joinLink": "https://meet.google.com/imd-vwmg-mfk"
+    },
+    {
+      "eventName": "Do You Know Your Trivia? - Kahoot Triva Challenge",
+      "speakers": [],
+      "startTime": "2020-09-19T00:00",
+      "endTime": "2020-09-19T00:30",
+      "eventDescription": "Ready to test your trivia skills? Come play with the GrizzHacks team and other hackers in this fun event!",
+      "type": "Activity",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/osc-ydpx-qri"
+    },
+    {
+      "eventName": "Escape Room - Challenge Accepted!",
+      "speakers": [],
+      "startTime": "2020-09-19T01:00",
+      "endTime": "2020-09-19T02:00",
+      "eventDescription": "Think you've got the skills to escape our virtual puzzle room? Prove it at this session!",
+      "type": "Activity",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/vgc-asmq-nnj"
+    },
+    {
+      "eventName": "Zumba Dance Party",
+      "speakers": [],
+      "startTime": "2020-09-19T02:00",
+      "endTime": "2020-09-19T02:30",
+      "eventDescription": "Feeling tired? Wake up with Zumba! Dance through a fun Zumba routine with our GrizzHacks organizers - no experience required",
+      "type": "Activity",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/fpe-yqkq-xqe"
+    },
+    {
+      "eventName": "Photo Booth Challenge - 3am Food Edition",
+      "speakers": [],
+      "startTime": "2020-09-19T03:00",
+      "endTime": "2020-09-19T04:00",
+      "eventDescription": "Feeling hungry? So are we! Take a photo of your 3am snack food and share it with us on social media or in Slack",
+      "type": "Activity"
+    },
+    {
+      "eventName": "Stretch it out in a Yoga Session",
+      "speakers": [],
+      "startTime": "2020-09-19T05:00",
+      "endTime": "2020-09-19T05:45",
+      "eventDescription": "Need a stretch break? Come relax with us in a yoga session",
+      "type": "Activity",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/hvy-gfwx-gfq"
+    },
+    {
+      "eventName": "Hacker Hangout 1",
+      "speakers": [],
+      "startTime": "2020-09-19T07:00",
+      "endTime": "2020-09-19T08:00",
+      "eventDescription": "Meet your fellow attendees and answer some light-hearted questions here with our organizing team",
+      "type": "Activity",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/rvi-fwwm-vnv"
+    },
+    {
+      "eventName": "Fail Faster with Oakland University Credit Union",
+      "speakers": ["Lizzy Torres"],
+      "startTime": "2020-09-19T08:00",
+      "endTime": "2020-09-19T09:00",
+      "eventDescription": "An intro to UX and UX in Hackathons: How can getting it wrong make it right? Let’s talk about user experience and a few methods you can apply to learn from your users as you go.",
+      "type": "Tech Talk",
+      "location": "Google Meeting",
+      "joinLink": " https://meet.google.com/sqp-gwwh-rar"
+    },
+    {
+      "eventName": "Office Hours with Comerica",
+      "speakers": ["Shaelese King"],
+      "startTime": "2020-09-19T09:00",
+      "endTime": "2020-09-19T10:00",
+      "eventDescription": "Don't miss out on the chance to talk and ask questions to Shaelese King from Comerica Bank!",
+      "type": "Office Hours",
+      "location": "Google Meeting",
+      "joinLink": " https://meet.google.com/zvt-qjtr-uwa"
+    },
+    {
+      "eventName": "Being a Successful Technology Team Member: A Tech Talk with Quicken Loans",
+      "speakers": ["DJ Bridges", "Kyle Schrade"],
+      "startTime": "2020-09-19T10:00",
+      "endTime": "2020-09-19T11:00",
+      "eventDescription": "Join the Rocket Mortgage by Quicken Loans team as we talk about the technology impact in our family of companies. Host DJ Bridges, University Relations Manager, will be speaking with Kyle Schrade, Software Engineer at Stock X, about his technology journey! You’ll walk away from this session with an understanding of our definition of a successful technology team member.",
+      "type": "Tech Talk",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/cpw-bgqe-xdx"
+    },
+    {
+      "eventName": "Office Hours with Quicken Loans",
+      "speakers": ["DJ Bridges"],
+      "startTime": "2020-09-19T11:00",
+      "endTime": "2020-09-19T12:00",
+      "eventDescription": "Don't miss the opportunity to meet and speak with DJ Bridges from Quicken Loans!",
+      "type": "Office Hours",
+      "location": "Google Meeting",
+      "joinLink": " https://meet.google.com/tar-renw-txa"
+    },
+    {
+      "eventName": "Office Hours with Dynatrace",
+      "speakers": ["Tony Hamama"],
+      "startTime": "2020-09-19T12:00",
+      "endTime": "2020-09-19T13:00",
+      "eventDescription": "Come meet Tony Hamama from Dynatrace! You don't want to miss this chance to learn something new from an amazing company",
+      "type": "Office Hours",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/qxq-guei-fnc"
     },
     {
       "eventName": "More Info Coming Soon!",
