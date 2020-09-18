@@ -2,224 +2,105 @@
   "events": [
     {
       "eventName": "Opening Ceremony",
-      "speakers": [
-        {
-          "speakerName": "The name of the speaker.",
-          "speakerRole": "The role of the speaker. (Exmaple: 'Keynote Speaker', 'Tech Talk Presenter', 'Moderater', 'Panalist', 'Facilitator', 'A/V Coordinator', 'Volunteer', etc.).",
-          "speakerPhoto": "A profile picture of the speaker. Defaults to an avitar if not defined.",
-          "speakerContactInfo": "COMING SOON!"
-        }
-      ],
-      "startTime": "2020-08-29T10:00",
-      "endTime": "2020-08-29T11:00",
+      "speakers": [],
+      "startTime": "2020-09-18T19:00",
+      "endTime": "2020-09-18T20:00",
       "eventDescription": "Come learn about all that is going on this weekend at the opening ceremony! We'll then be following up the opening ceremony with live Q&A.",
       "type": "Opening Ceremony",
-      "joinLink": "https://www.twitch.tv/mlh"
+      "location": "Twitch or Youtube",
+      "joinLink": "https://www.twitch.tv/grizzhacks"
+    },
+    {
+      "eventName": "Team Formation",
+      "speakers": [],
+      "startTime": "2020-09-18T20:00",
+      "endTime": "2020-09-18T20:30",
+      "eventDescription": "Looking for a team or extra teammates? Join us for a virtual team formation session!",
+      "type": "Team Formation",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/ukz-kcdj-iak"
     },
     {
       "eventName": "Hacking Starts",
-      "speakers": [
-        {
-          "speakerName": "The name of the speaker.",
-          "speakerRole": "The role of the speaker. (Exmaple: 'Keynote Speaker', 'Tech Talk Presenter', 'Moderater', 'Panalist', 'Facilitator', 'A/V Coordinator', 'Volunteer', etc.).",
-          "speakerPhoto": "A profile picture of the speaker. Defaults to an avitar if not defined.",
-          "speakerContactInfo": "COMING SOON!"
-        }
-      ],
-      "startTime": "2020-08-29T10:00",
-      "endTime": "2020-08-29T10:00",
-      "eventDescription": "You can start hacking now!",
+      "speakers": [],
+      "startTime": "2020-09-18T20:30",
+      "endTime": "2020-09-18T20:30",
+      "eventDescription": "Ready, set, build! You can start your projects now!",
       "type": "Hacking Starts"
     },
     {
-      "eventName": "Basics of Blockchain with Horizen",
-      "speakers": [
-        {
-          "speakerName": "The name of the speaker.",
-          "speakerRole": "The role of the speaker. (Exmaple: 'Keynote Speaker', 'Tech Talk Presenter', 'Moderater', 'Panalist', 'Facilitator', 'A/V Coordinator', 'Volunteer', etc.).",
-          "speakerPhoto": "A profile picture of the speaker. Defaults to an avitar if not defined.",
-          "speakerContactInfo": "COMING SOON!"
-        }
-      ],
-      "startTime": "2020-08-29T11:00",
-      "endTime": "2020-08-29T12:00",
-      "eventDescription": "Learn about Blockchain!",
+      "eventName": "Introduction to GitHub",
+      "speakers": [],
+      "startTime": "2020-09-18T21:00",
+      "endTime": "2020-09-18T22:00",
+      "eventDescription": "As with any project, having the right tools for the job is a key part of being successful. In this workshop, learn about version control and GitHub, essential tools that help software developers colaborate and share code. Never used GitHub before? That's totally fine! We'll take you through the basics, from creating your account, to creating a code repository, to adding code. Already somewhat familiar with GitHub? That's fine too! We'll be teaching more advanced concepts like pull requests, conventional commits, software versioning, and more! For every hacker, this workshop is a great help in competing for the \"Best Use of DevOps Tools\" prize!",
       "type": "Workshop",
-      "location": "Register via mhl.io"
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/tgw-pkcu-fic"
     },
     {
-      "eventName": "IBM's z/OS Mainframe APIs: We're Always Online",
-      "speakers": [
-        {
-          "speakerName": "The name of the speaker.",
-          "speakerRole": "The role of the speaker. (Exmaple: 'Keynote Speaker', 'Tech Talk Presenter', 'Moderater', 'Panalist', 'Facilitator', 'A/V Coordinator', 'Volunteer', etc.).",
-          "speakerPhoto": "A profile picture of the speaker. Defaults to an avitar if not defined.",
-          "speakerContactInfo": "COMING SOON!"
-        }
-      ],
-      "startTime": "2020-08-29T13:00",
-      "endTime": "2020-08-29T14:00",
-      "eventDescription": "Learn about IBM's z/OS Mainframe!",
+      "eventName": "Introduction to Android Development",
+      "speakers": [],
+      "startTime": "2020-09-18T22:00",
+      "endTime": "2020-09-18T23:00",
+      "eventDescription": "Want to get started with building mobile apps? Join Adam McNeilly, a Google Developer Expert in Android Development and one of the GrizzHacks founders as he walks you through the basics of creating your first app in Android Studio!",
       "type": "Workshop",
-      "location": "Register via mhl.io"
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/cyd-ttcb-qun"
     },
     {
-      "eventName": "Hacker Hangout 1",
-      "speakers": [
-        {
-          "speakerName": "The name of the speaker.",
-          "speakerRole": "The role of the speaker. (Exmaple: 'Keynote Speaker', 'Tech Talk Presenter', 'Moderater', 'Panalist', 'Facilitator', 'A/V Coordinator', 'Volunteer', etc.).",
-          "speakerPhoto": "A profile picture of the speaker. Defaults to an avitar if not defined.",
-          "speakerContactInfo": "COMING SOON!"
-        }
-      ],
-      "startTime": "2020-08-29T15:15",
-      "endTime": "2020-08-29T16:15",
-      "eventDescription": "Come have fun with other hackers!",
-      "type": "Hacker Hangout",
-      "location": "Discord Server"
+      "eventName": "Introduction to Web Development",
+      "speakers": [],
+      "startTime": "2020-09-18T23:00",
+      "endTime": "2020-09-19T00:00",
+      "eventDescription": "Want to get started with building websites? Get a crash course of some of the many tools that can be used for web development. Never built a website before? We'll be starting with HTML and CSS to put together your first website. Already know HTML and CSS? We'll then be talking about Bootstrap and basic JavaScript to take your website to the next level. Finally, want to try a framework? We'll be wrapping up the workshop with a quick introduction to React, one of the most popular JavaScript frameworks!",
+      "type": "Workshop",
+      "location": "Google Meeting",
+      "joinLink": "https://meet.google.com/imd-vwmg-mfk"
     },
     {
-      "eventName": "!Light Mini-Event",
-      "speakers": [
-        {
-          "speakerName": "The name of the speaker.",
-          "speakerRole": "The role of the speaker. (Exmaple: 'Keynote Speaker', 'Tech Talk Presenter', 'Moderater', 'Panalist', 'Facilitator', 'A/V Coordinator', 'Volunteer', etc.).",
-          "speakerPhoto": "A profile picture of the speaker. Defaults to an avitar if not defined.",
-          "speakerContactInfo": "COMING SOON!"
-        }
-      ],
-      "startTime": "2020-08-29T16:30",
-      "endTime": "2020-08-29T17:30",
-      "eventDescription": "Try making an HTML website without looking at it!",
-      "type": "Mini-Event",
-      "location": "Discord Server"
-    },
-    {
-      "eventName": "Hacker Hangout 2",
-      "speakers": [
-        {
-          "speakerName": "The name of the speaker.",
-          "speakerRole": "The role of the speaker. (Exmaple: 'Keynote Speaker', 'Tech Talk Presenter', 'Moderater', 'Panalist', 'Facilitator', 'A/V Coordinator', 'Volunteer', etc.).",
-          "speakerPhoto": "A profile picture of the speaker. Defaults to an avitar if not defined.",
-          "speakerContactInfo": "COMING SOON!"
-        }
-      ],
-      "startTime": "2020-08-29T20:45",
-      "endTime": "2020-08-29T21:45",
-      "eventDescription": "Come have fun with other hackers!",
-      "type": "Hacker Hangout",
-      "location": "Discord Server"
-    },
-    {
-      "eventName": "Hacker Hangout 3",
-      "speakers": [
-        {
-          "speakerName": "The name of the speaker.",
-          "speakerRole": "The role of the speaker. (Exmaple: 'Keynote Speaker', 'Tech Talk Presenter', 'Moderater', 'Panalist', 'Facilitator', 'A/V Coordinator', 'Volunteer', etc.).",
-          "speakerPhoto": "A profile picture of the speaker. Defaults to an avitar if not defined.",
-          "speakerContactInfo": "COMING SOON!"
-        }
-      ],
-      "startTime": "2020-08-30T01:00",
-      "endTime": "2020-08-30T02:00",
-      "eventDescription": "Come have fun with other hackers!",
-      "type": "Hacker Hangout",
-      "location": "Discord Server"
-    },
-    {
-      "eventName": "Slideshow Karaoke Mini-Event",
-      "speakers": [
-        {
-          "speakerName": "The name of the speaker.",
-          "speakerRole": "The role of the speaker. (Exmaple: 'Keynote Speaker', 'Tech Talk Presenter', 'Moderater', 'Panalist', 'Facilitator', 'A/V Coordinator', 'Volunteer', etc.).",
-          "speakerPhoto": "A profile picture of the speaker. Defaults to an avitar if not defined.",
-          "speakerContactInfo": "COMING SOON!"
-        }
-      ],
-      "startTime": "2020-08-30T07:00",
-      "endTime": "2020-08-30T08:00",
-      "eventDescription": "Try presenting a PowerPoint you've never seen before!",
-      "type": "Mini-Event",
-      "location": "Discord Server"
-    },
-    {
-      "eventName": "Soft Deadline",
-      "speakers": [
-        {
-          "speakerName": "The name of the speaker.",
-          "speakerRole": "The role of the speaker. (Exmaple: 'Keynote Speaker', 'Tech Talk Presenter', 'Moderater', 'Panalist', 'Facilitator', 'A/V Coordinator', 'Volunteer', etc.).",
-          "speakerPhoto": "A profile picture of the speaker. Defaults to an avitar if not defined.",
-          "speakerContactInfo": "COMING SOON!"
-        }
-      ],
-      "startTime": "2020-08-30T08:00",
-      "endTime": "2020-08-30T08:00",
-      "eventDescription": "Devpost is due!",
-      "type": "Submission Deadline"
+      "eventName": "More Info Coming Soon!",
+      "speakers": [],
+      "startTime": "2020-09-19T00:00",
+      "endTime": "2020-09-20T00:00",
+      "eventDescription": "We've got a great day full of workshops, mini-events, and more planned for Saturday! Hang tight while we just finish up the last of our scheduling!",
+      "type": "Coming Soon"
     },
     {
       "eventName": "Hacking Ends",
-      "speakers": [
-        {
-          "speakerName": "The name of the speaker.",
-          "speakerRole": "The role of the speaker. (Exmaple: 'Keynote Speaker', 'Tech Talk Presenter', 'Moderater', 'Panalist', 'Facilitator', 'A/V Coordinator', 'Volunteer', etc.).",
-          "speakerPhoto": "A profile picture of the speaker. Defaults to an avitar if not defined.",
-          "speakerContactInfo": "COMING SOON!"
-        }
-      ],
-      "startTime": "2020-08-30T10:00",
-      "endTime": "2020-08-30T10:00",
-      "eventDescription": "Hacking is now over.",
+      "speakers": [],
+      "startTime": "2020-09-20T08:30",
+      "endTime": "2020-09-20T08:30",
+      "eventDescription": "Hacking Ends and an initial Devpost submission with you project name, tagline, teammates, and prize categories is due!",
       "type": "Hacking Ends"
     },
     {
-      "eventName": "U.S. Airforce Cyber Security Challenges",
-      "speakers": [
-        {
-          "speakerName": "The name of the speaker.",
-          "speakerRole": "The role of the speaker. (Exmaple: 'Keynote Speaker', 'Tech Talk Presenter', 'Moderater', 'Panalist', 'Facilitator', 'A/V Coordinator', 'Volunteer', etc.).",
-          "speakerPhoto": "A profile picture of the speaker. Defaults to an avitar if not defined.",
-          "speakerContactInfo": "COMING SOON!"
-        }
-      ],
-      "startTime": "2020-08-30T10:10",
-      "endTime": "2020-08-30T10:40",
-      "eventDescription": "Learn about Cyber Security!",
-      "type": "Mini-Event",
-      "location": "Discord Server"
+      "eventName": "Demo Video, Devpost Write Up, and Code Repo Due",
+      "speakers": [],
+      "startTime": "2020-09-20T10:00",
+      "endTime": "2020-09-20T10:00",
+      "eventDescription": "Judging starts now! Make sure your final demo video, write up, and code repo are up on Devpost!",
+      "type": "Final Devpost Due"
     },
     {
-      "eventName": "Hacker Demos",
-      "speakers": [
-        {
-          "speakerName": "The name of the speaker.",
-          "speakerRole": "The role of the speaker. (Exmaple: 'Keynote Speaker', 'Tech Talk Presenter', 'Moderater', 'Panalist', 'Facilitator', 'A/V Coordinator', 'Volunteer', etc.).",
-          "speakerPhoto": "A profile picture of the speaker. Defaults to an avitar if not defined.",
-          "speakerContactInfo": "COMING SOON!"
-        }
-      ],
-      "startTime": "2020-08-30T10:40",
-      "endTime": "2020-08-30T13:15",
-      "eventDescription": "Come see what other hackers have build this weekend!",
-      "type": "Closing Ceremony",
-      "joinLink": "https://www.twitch.tv/mlh"
+      "eventName": "Top 10 Demos",
+      "speakers": [],
+      "startTime": "2020-09-20T13:30",
+      "endTime": "2020-09-20T14:30",
+      "eventDescription": "Come check out the top 10 project from GrizzHacks 5! We'll be showing off the top 10 projects, and inviting the top 10 teams and judges onto the live stream for some quick Q & A! If your team makes it to the top 10, at least one person (preferably the whole team) needs to join the stream to be eligable for our top 3 grand prizes.",
+      "type": "Top 10 Demos",
+      "location": "Twitch or Youtube",
+      "joinLink": "https://www.twitch.tv/grizzhacks"
     },
     {
       "eventName": "Closing Ceremony",
-      "speakers": [
-        {
-          "speakerName": "The name of the speaker.",
-          "speakerRole": "The role of the speaker. (Exmaple: 'Keynote Speaker', 'Tech Talk Presenter', 'Moderater', 'Panalist', 'Facilitator', 'A/V Coordinator', 'Volunteer', etc.).",
-          "speakerPhoto": "A profile picture of the speaker. Defaults to an avitar if not defined.",
-          "speakerContactInfo": "COMING SOON!"
-        }
-      ],
-      "startTime": "2020-08-30T13:15",
-      "endTime": "2020-08-30T13:30",
-      "eventDescription": "Come learn about all that is going on this weekend at the opening ceremony!",
+      "speakers": [],
+      "startTime": "2020-09-20T15:00",
+      "endTime": "2020-09-20T16:00",
+      "eventDescription": "Learn about resources to continue your hacks, and winners are announced!",
       "type": "Closing Ceremony",
-      "joinLink": "https://www.twitch.tv/mlh"
+      "location": "Twitch or Youtube",
+      "joinLink": "https://www.twitch.tv/grizzhacks"
     }
   ]
 }

@@ -1,11 +1,12 @@
 {
-  "website": "https://mlh.io",
-  "discord": "https://discord.mlh.io",
-  "devpost": "https://sunsouthacksout.devpost.com/",
-  "twitch": "https://www.twitch.tv/mlh",
-  "youtube": "https://www.youtube.com/user/MajorLeagueHackingTV",
-  "facebook": "https://www.facebook.com/MajorLeagueHacking",
-  "instagram": "https://www.instagram.com/mlhacks/",
-  "twitter": "https://twitter.com/mlhacks",
-  "linkedin": "https://www.linkedin.com/company/major-league-hacking/"
+  "website": "https://grizzhacks.com/",
+  "joinSlack": "http://check-in.grizzhacks.com/",
+  "slackWorkspace": "https://grizzhacks5.slack.com/",
+  "devpost": "https://grizzhacks5.devpost.com/",
+  "twitch": "https://www.twitch.tv/grizzhacks/",
+  "youtube": "https://www.youtube.com/channel/UCePgdpg56PJNcRlwtK4FC6Q/",
+  "facebook": "https://www.facebook.com/grizzhacks/",
+  "instagram": "https://www.instagram.com/grizzhacks/",
+  "twitter": "https://twitter.com/grizzhacks/",
+  "linkedin": "https://www.linkedin.com/company/grizzhacks/"
 }
