@@ -347,7 +347,7 @@
       "endTime": "2020-09-20T14:30",
       "eventDescription": "Come check out the top 10 project from GrizzHacks 5! We'll be showing off the top 10 projects, and inviting the top 10 teams and judges onto the live stream for some quick Q & A! If your team makes it to the top 10, at least one person (preferably the whole team) needs to join the stream to be eligable for our top 3 grand prizes.",
       "type": "Top 10 Demos",
-      "location": "Twitch or Youtube",
+      "location": "Facebook or Twitch or Youtube",
       "joinLink": "https://www.twitch.tv/grizzhacks"
     },
     {
@@ -357,7 +357,7 @@
       "endTime": "2020-09-20T16:00",
       "eventDescription": "Learn about resources to continue your hacks, and winners are announced!",
       "type": "Closing Ceremony",
-      "location": "Twitch or Youtube",
+      "location": "Facebook or Twitch or Youtube",
       "joinLink": "https://www.twitch.tv/grizzhacks"
     }
   ]
