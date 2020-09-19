@@ -73,13 +73,21 @@ export const timeZoneOffsetParser = (
   }
 };
 
-export const correctTimezones = (date: Date, schemaTimeZoneOffset: number) => {
-  if (!isNaN(date.valueOf())) {
-    // Only adjust the time zone if it is a valid date...
-    date.setMinutes(
-      // Note schemaTimeZoneOffset is already negative by defintion, so we add it...
-      date.getMinutes() - (schemaTimeZoneOffset * 60 + date.getTimezoneOffset())
-    );
-  }
-  return date;
+export const appendTimeZoneToDateString = (
+  dateString: string,
+  schemaTimeZoneOffset: number
+) => {
+  const hours = "00".concat(
+    Math.floor(Math.abs(schemaTimeZoneOffset)).toString()
+  );
+  const minutes = "00".concat(
+    Math.floor(Math.abs((schemaTimeZoneOffset % 1) * 60)).toString()
+  );
+  const dateStringWithTimeZone = `${dateString}${
+    schemaTimeZoneOffset > 0 ? "+" : "-"
+  }${hours.substring(hours.length - 2, hours.length)}:${minutes.substring(
+    minutes.length - 2,
+    minutes.length
+  )}`;
+  return dateStringWithTimeZone;
 };

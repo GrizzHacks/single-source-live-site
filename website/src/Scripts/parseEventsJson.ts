@@ -1,7 +1,7 @@
 import { EventSchema, SchemaError } from "../../@Types";
 import eventsJson from "../Data/events.json";
 import { propertyExistsFactory, warnIfNotLinkFactory } from "./parseHelpers";
-import { correctTimezones } from "./timeZoneHelpers";
+import { appendTimeZoneToDateString } from "./timeZoneHelpers";
 
 export const parseEventsJson = (
   schemaTimeZoneOffset: number
@@ -162,9 +162,11 @@ export const parseEventsJson = (
 
           // Validate startTime
           if (typeof currentEvent.startTime === "string") {
-            eventSchema.startTime = correctTimezones(
-              new Date(currentEvent.startTime),
-              schemaTimeZoneOffset
+            eventSchema.startTime = new Date(
+              appendTimeZoneToDateString(
+                currentEvent.startTime,
+                schemaTimeZoneOffset
+              )
             );
             if (isNaN(eventSchema.startTime.valueOf())) {
               // startTime cannot be parsed as a date!
@@ -187,9 +189,11 @@ export const parseEventsJson = (
 
           // Validate endTime
           if (typeof currentEvent.endTime === "string") {
-            eventSchema.endTime = correctTimezones(
-              new Date(currentEvent.endTime),
-              schemaTimeZoneOffset
+            eventSchema.endTime = new Date(
+              appendTimeZoneToDateString(
+                currentEvent.endTime,
+                schemaTimeZoneOffset
+              )
             );
             if (isNaN(eventSchema.endTime.valueOf())) {
               // endTime cannot be parsed as a date!

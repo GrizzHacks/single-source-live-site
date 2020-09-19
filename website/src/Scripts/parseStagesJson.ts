@@ -1,7 +1,7 @@
 import { SchemaError, StageSchema } from "../../@Types";
 import stagesJson from "../Data/stages.json";
 import { propertyExistsFactory } from "./parseHelpers";
-import { correctTimezones } from "./timeZoneHelpers";
+import { appendTimeZoneToDateString } from "./timeZoneHelpers";
 
 export const parseStagesJson = (
   schemaTimeZoneOffset: number
@@ -76,9 +76,11 @@ export const parseStagesJson = (
 
           // Validate endTime
           if (typeof currentStage.endTime === "string") {
-            stageSchema.endTime = correctTimezones(
-              new Date(currentStage.endTime),
-              schemaTimeZoneOffset
+            stageSchema.endTime = new Date(
+              appendTimeZoneToDateString(
+                currentStage.endTime,
+                schemaTimeZoneOffset
+              )
             );
             if (isNaN(stageSchema.endTime.valueOf())) {
               // endTime cannot be parsed as a date!
