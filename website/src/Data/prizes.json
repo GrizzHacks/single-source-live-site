@@ -1,3 +1,165 @@
 {
-  "prizes": []
+  "prizes": [
+    {
+      "prizeName": "Grand Prize 1",
+      "prizeSponsor": "Oakland University Credit Union",
+      "prizeDescription": "Keep up the social distancing by keeping to yourself with these snazzy headphones!",
+      "prize": "Beats Solo3 Wireless On-Ear Headphones"
+    },
+    {
+      "prizeName": "Grand Prize 2",
+      "prizeDescription": "Look at me, you are the theater now.",
+      "prize": "Crenova Video Projector"
+    },
+    {
+      "prizeName": "Grand Prize 3",
+      "prizeDescription": "Now your dad will be able to see if you’re winning on this sleek monitor!",
+      "prize": "ViewSonic 27 Inch IPS 2K 1440p Frameless LED Monitor"
+    },
+    {
+      "prizeName": "Best Game",
+      "prizeDescription": "Ramirez! Get back in there with your new headset and gaming mouse!",
+      "prize": "Gaming Mouse + Wireless PC Headset"
+    },
+    {
+      "prizeName": "Best Hardware Hack",
+      "prizeDescription": "Rule the skies with is drone!",
+      "prize": "SNAPTAIN S5C WiFi FPV Drone with 720P HD Camera, SD Card, and Extra Batteries"
+    },
+    {
+      "prizeName": "Best Mobile App",
+      "prizeSponsor": "Quicken Loans",
+      "prizeDescription": "Take your coding prowess on the go with this wireless keyboard/mouse!",
+      "prize": "Logitech MK550 Wireless Wave Keyboard and Mouse Combo"
+    },
+    {
+      "prizeName": "Best Web App",
+      "prizeDescription": "Improve your posture as you improve your hacking abilities!",
+      "prize": "Standing Desk"
+    },
+    {
+      "prizeName": "Best \"Other\" Tech Stack",
+      "prizeDescription": "Turn your room into a party with this speaker.",
+      "prize": "OontZ Angle 3 Ultra (3rd Gen) 5.0 Bluetooth Speaker + Case"
+    },
+    {
+      "prizeName": "Most Customer Obsessed Hack",
+      "prizeSponsor": "Amazon",
+      "prizeDescription": "Hey Alexa, remind me to make a witty caption here.",
+      "prize": "Echo Dot (3rd Gen) - Smart speaker with Alexa"
+    },
+    {
+      "prizeName": "Best Education Hack",
+      "prizeDescription": "Why carry around a backpack full of notebooks when you can have a tablet?",
+      "prize": "Rocketbook Fusion Smart Reusable Notebook "
+    },
+    {
+      "prizeName": "Best Environmental Hack",
+      "prizeDescription": "Praise the sun as it charges your devices!",
+      "prize": "Portable Solar Charger"
+    },
+    {
+      "prizeName": "Best Finance Hack",
+      "prizeDescription": "You never have to worry about your devices dying with this portable charger.",
+      "prize": "Anker PowerCore 26800 Portable Charger"
+    },
+    {
+      "prizeName": "Best Social Connectivity Hack",
+      "prizeDescription": "Take the party with you wherever you go with this speaker!",
+      "prize": "Altec Lansing Bluetooth Speaker"
+    },
+    {
+      "prizeName": "Best Social Good Hack",
+      "prizeDescription": "These headphones will be the perfect reward for your generosity.",
+      "prize": "Audio-Technica ATH-M20x Professional Studio Monitor Headphones"
+    },
+    {
+      "prizeName": "Best Machine Learning/Data Visualization Hack",
+      "prizeDescription": "Always have your knowledge with you with this flashdrive.",
+      "prize": "SanDisk 128GB Dual USB A 3.1 and USB C Flashdrive"
+    },
+    {
+      "prizeName": "Best UX/UI",
+      "prizeDescription": "You never have to worry about keeping your pencils sharp with this drawing tablet!",
+      "prize": "Wacom Graphic Drawing Tablet"
+    },
+    {
+      "prizeName": "Most Creative Hack",
+      "prizeDescription": "Let all your ideas be heard with this microphone!",
+      "prize": "Blue Snowball Microphone"
+    },
+    {
+      "prizeName": "Best Rookie Hack",
+      "prizeDescription": "You have a good grasp of the basics, now take your skills to the next level with this Dev kit!",
+      "prize": "HSU Development Kit"
+    },
+    {
+      "prizeName": "Best Use of DevOps Tools",
+      "prizeDescription": "Sharpen your coding skills with this code cracking book!",
+      "prize": "Cracking the Coding Interview"
+    },
+    {
+      "prizeName": "Best Write Up",
+      "prizeDescription": "You deserve a nice, long rest after all that hacking, so lounge it up in style in your new hammock!",
+      "prize": "Portable Parachute Camping Hammocks"
+    },
+    {
+      "prizeName": "Best Video",
+      "prizeDescription": "This camera mount will make making videos a breeze.",
+      "prize": "Overhead Camera Mount"
+    },
+    {
+      "prizeName": "Best Par-tay Hack",
+      "prizeDescription": "No party is complete without balloons.",
+      "prize": "Bubble Tea Kit & Balloons"
+    },
+    {
+      "prizeName": "Best Use of Google Cloud Platform",
+      "prizeSponsor": "Major League Hacking",
+      "prizeDescription": "Hey Google, give me a creative title.",
+      "prize": "Google Nest Mini"
+    },
+    {
+      "prizeName": "Best Domain Name from Domain.com",
+      "prizeSponsor": "Major League Hacking",
+      "prizeDescription": "I like the cut of your jib, keep up the creativity.",
+      "prize": "Domain.com Backpack"
+    },
+    {
+      "prizeName": "Best use of Full Stack JavaScript (Any Framework)",
+      "prizeSponsor": "Dynatrace",
+      "prizeDescription": "Take your knowledge with you on the go with this portable hard drive!",
+      "prize": "SAMSUNG T7 Portable SSD 500GB"
+    },
+    {
+      "prizeName": "Community Class Act Hack",
+      "prizeSponsor": "Oakland University Credit Union",
+      "prizeDescription": "Show the circuit cards who’s boss with this Arduino Starter Kit!",
+      "prize": "Arduino Starter Kit"
+    },
+    {
+      "prizeName": "Innovation is the Key to Success",
+      "prizeSponsor": "Comerica Bank",
+      "prizeDescription": "Take your knowledge with you on the go with this portable hard drive!’",
+      "prize": "SAMSUNG T7 Portable SSD 500GB"
+    },
+    {
+      "prizeName": "FCA's Favorite Hack",
+      "prizeSponsor": "Fiat Chrysler Automobiles",
+      "prizeDescription": "This Raspberry Pi sure looks good, but it isn’t for eating!’",
+      "prize": "Raspberry Pi 4 Model B + Charger"
+    },
+    {
+      "prizeName": "Best Use of Automation",
+      "prizeSponsor": "Ally Bank",
+      "prizeDescription": "The pen is mightier than the sword, especially when the pen can print 3D!’",
+      "prize": "Multitool + 3D Pen"
+    },
+    {
+      "prizeName": "Best Pizza Focused Game",
+      "prizeSponsor": "Little Ceasers",
+      "prizeDescription": "The RGBs on this keyboard and mouse will help you get those epic Victory Royales!",
+      "prize": "Redragon S101 Wired RGB Backlit Gaming Keyboard and Mouse, Gaming Mouse Pad, Gaming Headset Combo All in 1 PC Gamer Bundle"
+    }
+  ]
 }
